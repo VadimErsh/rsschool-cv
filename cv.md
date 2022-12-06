@@ -17,3 +17,11 @@ const func = (num) => {
   return num + 1;
 };
 ```
+### Experience
+* Compilation of this resume
+### Education
+* Pinsk State Vocational Technical College of Mechanical Engineering
+### Languages
+* English - A2
+* Belarusian - Native
+* Russian - Native
