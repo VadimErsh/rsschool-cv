@@ -1,17 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  scroll-behavior: smooth;
+  width: 1200px;
+  margin: 0 auto;
+  font-family: comic sans ms;
+}
+
 header {
-  font-size: 20px;
-  color: blue;
- }
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 80px;
+  background-color: #ffcd00;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  margin-bottom: 30px;
+  padding-top: 130px;
+  background-image: url("/img/fon.jpg");
+}
+
+
+.my-photo img {
+  width: 315px;
+  height: 320px;
+  border-radius: 100%;
+  margin-left: 46px;
+  z-index: 1;
+  box-shadow: -2px -2px 41px -5px rgba(255, 205, 0, 0.93);
+} 
+
+
+.about-me h1 {
+  font-size: 30px;
+  margin-left: 110px;
+  margin-top: 20px;
+  background-color: #ffcd00;
+  width: 165px;
+  border-radius: 100px;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+
+.info li {
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.info {
+  padding-left: 0px;
  
- main {
- 
-   font-size: 15px;
-   color:red;
- }
- 
- footer {
- 
-   font-size: 20px;
-   color:green;
- 
- }
+}
+
+.info-2 {
+  background-color: #ffcd00;
+  border-radius: 100px;
+  padding: 0 5px;
+  
+}
+
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  right: 50px;
+  top: 130px;
+  font-size: 30px;
+} 
+
+.history {
+  margin-top: 80px;
+  width: 500px;
+  text-align: center;
+}
+
+.history h2 {
+ background-color: #ffcd00;
+ border-radius: 100px;
+ margin: 0 auto;
+ width: 200px;
+ font-size: 30px;
+}
+
+.my-skills h2 {
+  text-align: center;
+  font-size: 30px;
+  background-color: #ffcd00;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.my-skills  li { 
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+.experience h2 {
+  width: 200px;
+  display: inline-block;
+  font-size: 30px;
+  background-color: #ffcd00;
+  border-radius: 100px;
+}
+
+.experience {
+  text-align: center;
+}
+
+.education h2 {
+  display: inline-block;
+  width: 200px;
+  border-radius: 100px;
+  font-size: 30px;
+  background-color: #ffcd00;
+
+}
+
+.education {
+  margin-top: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+.education p {
+  margin-top: 15px;
+}
+
+.code-examples {
+  display: block;
+}
+
+.code-examples h2 {
+  width: 250px;
+  margin-left: 110px;
+  text-align: center;
+  background-color: #ffcd00;
+  border-radius: 100px;
+  font-size: 30px;
+}
+
+.my-codbg  {
+  background-color: rgb(211,211,211);
+  border-radius: 10px;
+}
+
+.languages h2 {
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  background-color: #ffcd00;
+  border-radius: 100px;
+  padding: 0 10px;
+}
+
+.languages {
+  margin-top:50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.languages li  {
+  list-style-type: none;
+}
+
+.languages ul {
+  padding-left: 0px;
+}
+
+.footer-info {
+  background-color: #ffcd00;
+  width: 1200px;
+  height: 80px;
+}
+
+.footer-img img:nth-child(1) {
+  width: 100px;
+  height: auto;
+} 
+
+.footer-img img:nth-child(2) {
+  width: 100px;
+  height: auto;
+  text-align: right;
+  position: absolute;
+} 
+
+.footer-img {
+  padding-top: 15px;
+}
+
+.end-date {
+ font-size: 25px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+
+nav ul li, a{
+  display: inline;
+  color: black;
+  text-decoration: none;
+  font-size:  25px; ;
+  padding-right: 10px;
+}
+
+
+header img {
+  display: inline-block;
+  width: 150px;
+}
+
+.shadow {
+    box-shadow: 10px 15px 50px rgba(0,0,0,0.5);
+} 
+
+.about-me h2 {
+  background-color: #ffcd00;
+  border-radius: 100px;
+  width: 150px;
+  text-align: center;
+  margin-left: 140px;
+  margin-top:  80px;
+  font-size: 30px;
+}
+
+
+pre, .my-code {
+ font-size: 13px;
+}
+
+.projects h2 {
+ background-color: #ffcd00;
+ border-radius: 100px;
+ padding: 0 10px;
+ font-size: 30px;
+ margin-bottom: 40px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.projects a {
+  margin-top: 30px;
+  background-color: rgb(211,211,211);
+  padding: 20px;
+  border-radius: 10px;
+}
