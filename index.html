@@ -23,5 +23,75 @@
         </ul>
       </nav>
   </header>
+  <main class="main">
+    <div class="container">
+      <div class="my-photo">
+        <img src="/rsschool-cv/img/photoeditorsdk-export.png" alt="logors">
+      </div>
+        <div class="about-me" id="contacts-nav">
+          <h1>Vadim Ersh</h1>
+          <h2>Contacts</h2>
+            <ul class="info">
+              <li><b class="info-2">Age:</b>25</li>
+              <li><b class="info-2">Address:</b>Pinsk,Belarus</li>
+              <li><b class="info-2">Phone:</b>+375(44)5016382</li>
+              <li><b class="info-2">E-mail:</b>vadimersh2022@gmail.com</li>
+            </ul>
+        </div>
+        <div class="languages" id="languages-nav">
+          <h2>Languages</h2>
+            <ul>
+              <li>English - A2</li>
+              <li>Belarusian - Native</li>
+              <li>Russian - Native</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-2">
+      <div class="history" id="about">
+        <h2>About me</h2>
+        <p>I am 26 years old. For the last two years I have been working in a taxi.Gaining knowledge in the
+          field of front-end development is my goal. I have no experience in this area yet.But I am willing
+          to do my best to achieve this goal.</p>
+      </div>
+      <div class="my-skills" id="skills-nav">
+        <h2>Skills</h2>
+        <ul>
+          <li>-Basics HTML</li>
+          <li>-Basics CSS</li>
+        </ul>
+      </div>
+      <div class="experience" id="experience-nav">
+        <h2>Experience</h2>
+        <div class="projects">
+            <a href="https://vadimersh.github.io/rsschool-cv/" target="_blank">Projects CV</a>
+        </div>
+      </div>
+      <div class="education" id="education-nav">
+        <h2>Education</h2>
+        <p>Pinsk State Vocational Technical<br> College of Mechanical Engineering</p>
+      </div>
+      <div class="code-examples" id="code-nav">
+        <h2>Code Examples</h2>
+        <div class="my-codbg">
+          <pre>
+            <code class="my-code">
+            function minSum(arr) {
+              const copyArr = [...arr].sort((a, b) => (a - b));
+              let res = 0;
+              for (let i = 0; i &lt; copyArr.length / 2; i++){
+                res += copyArr[i] * copyArr[copyArr.length - i - 1];
+              }
+            
+              return res;
+            }
+    
+            minSum({12,6,10,26,3,24})
+            </code>
+        </pre>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
